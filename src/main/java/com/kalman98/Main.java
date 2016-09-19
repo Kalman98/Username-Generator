@@ -1,3 +1,4 @@
+package com.kalman98;
 import java.util.Random;
 
 public class Main {
