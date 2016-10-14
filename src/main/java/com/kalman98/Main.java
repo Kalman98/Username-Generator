@@ -3,13 +3,13 @@ import java.util.Random;
 
 public class Main {
 
-	final static char[] CONSONANTS = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'};
-	final static char[] VOWELS = {'a', 'e', 'i', 'o', 'u'};
+	private final static char[] CONSONANTS = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'};
+	private final static char[] VOWELS = {'a', 'e', 'i', 'o', 'u'};
 	
-	static int length;
-	static Random rand = new Random();
-	static String username = "";
-	static boolean isConsonant = false;
+	private static int length;
+	private static Random rand = new Random();
+	private static String username = "";
+	private static boolean isConsonant = false;
 	
 	public static void main(String[] args) {
 		
